@@ -1,0 +1,46 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - faq_0002
+  - faq_0001
+  - faq_0003
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_response_faq_0001
+- utter_response_faq_0002
+- utter_response_faq_0003
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "¿La respuesta fue de tu ayuda?"
+
+  utter_happy:
+  - text: "Great carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_response_faq_0001:
+  - text: "Si. Para hacerlo, use el filtro de vigencia dentro de la pestaña de gestión de pólizas, donde podrá gestionar pólizas para contratos de otra vigencia."
+
+  utter_response_faq_0002:
+  - text: "Porque su estado es diferente.  Es decir puede estar elaborado, en ejecución, finalizado o cancelado."
+
+  utter_response_faq_0003:
+  - text: "En ese caso, a través de un oficio o correo formal dirigido a la Vicerrectoría Administrativa y Financiera, se debe solicitar la creación de la entidad que requiere dentro del sistema."
